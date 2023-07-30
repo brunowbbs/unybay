@@ -9,7 +9,7 @@ import { useEffect, useState } from "react";
 import { editApiProduct } from "./services";
 import { useAuthSessionStore } from "../../hooks/use-auth-session";
 import { useParams } from "react-router-dom";
-import api from "../../services/api";
+
 import { getApiDetailsProducts } from "../details/services";
 
 export type FormProduct = {
